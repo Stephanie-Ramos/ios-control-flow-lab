@@ -401,7 +401,7 @@ answer:
 -b. 1024 - prints "Bytes in a Kilobyte"
 -c. 65 - prints "Some uninteresting number"
 
-Without the defualt in the switch statement, it complies a runtime error.  
+Without the default in the switch statement, it complies a runtime error.  
 
 -
 ***
@@ -435,8 +435,6 @@ if population > 10000 {
 }
 
 
-var population: Int = 1
-var message = String()
 
 switch population {
 case ...9999:
