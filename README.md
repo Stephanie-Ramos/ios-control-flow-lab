@@ -124,7 +124,7 @@ switch currentWeather {
 case "rain", "sunny","snow":
     print("\(currentWeather), enjoy the change of the season")
 default:
-    print("work indoors")
+    break;
 }
 ```
 
@@ -312,7 +312,7 @@ Write an if statement that prints out what decade of life someone is in (e.g "Yo
 
 ```swift
 // enter code here
-let nameAndBirthYear: (String, Int) = ("" , 1)
+let nameAndBirthYear: (String, Int) = ("" , 20)
 
 if 20 <= nameAndBirthYear.1 && nameAndBirthYear.1 < 30 {
  print("You are in your twenties") // 20s
@@ -401,7 +401,7 @@ answer:
 -b. 1024 - prints "Bytes in a Kilobyte"
 -c. 65 - prints "Some uninteresting number"
 
-Without the default in the switch statement, it complies a runtime error.  
+Without the default clause in the switch statement, it complies a runtime error.  
 
 -
 ***
