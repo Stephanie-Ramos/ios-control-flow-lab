@@ -85,7 +85,7 @@ default:
 - D
 
 answer:
-This would cause a runtime error must the data types must remain the same. Otherwise, the answer is D.  
+This would cause a runtime error must the data types must remain the same. If there was not an error, then the answer is D.  
 ***
 ## Question 4
 
@@ -124,7 +124,7 @@ switch currentWeather {
 case "rain", "sunny","snow":
     print("\(currentWeather), enjoy the change of the season")
 default:
-    break;
+    print("The value in your currentWeather is not in the switch statement")
 }
 ```
 
@@ -468,7 +468,7 @@ switch myTuple.0 + myTuple.1 {
 case 15...:
     print("The sum of the two numbers in the tuple is at least 15.")
 default:
-    break;
+    print("The value in myTuple is not in the switch statement.")
 }
 ```
 ***
